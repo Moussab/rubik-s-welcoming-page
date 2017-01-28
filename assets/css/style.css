@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+body{
+    padding-top: 50px;
+    font-family: 'News Cycle', sans-serif;
+    color: black;
+}
+nav.navbar-default{
+    background: #00C853;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px 2px black;
+}
+ul.nav.navbar-nav li a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+ul.nav.navbar-nav li{
+    min-width: 170px;
+}
+ul.nav.navbar-nav li a:hover{
+    background-color: #ffffff;
+}
+.inline-form input {
+    display: inline-block;
+    width: 100%;
+    background: #33691E;
+    color : #fff;
+}
+#iframeGeo{
+    width: 500px;
+    height: 400px;
+}
+.modal-dialog{
+    width: 535px;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+.modal-header{
+    background-color: #00C853;
+    color: white;
+}
+.modal-footer{
+    background-color: #00C853;
+    color: white;
+}
+button[data-dismiss="modal"]{
+    background-color: #219a32;
+    color: white;
+}
+h2.text-primary{
+    text-align: center;
+}
+h2.text-titles{
+    color: rgba(240, 39, 28, 0.77);
+}
+p{
+    text-align: justify;
+}
+img.cube-image-formation{
+    float: left;
+    margin-top: -170px;
+    margin-left: -65px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 100%;
+    height: 625px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#cube-formation, #gammes-de-produits{
+    width: 100%;
+    height: 35%;
+}
+#para-formation, #para-gammes-de-produits{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn#btn-savoir-presentation {
+    padding: 10px 20px;
+    background-color: #3140c5;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn#btn-savoir-presentation:hover, .btn#btn-savoir-presentation:focus {
+    padding: 10px 20px;
+    background-color: #3140c5;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn#btn-savoir-formation,
+.btn#btn-savoir-gamme{
+    padding: 10px 20px;
+    background-color: #00C853;
+    color: #ffffff;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn#btn-savoir-formation:hover, .btn#btn-savoir-formation:focus,
+.btn#btn-savoir-gamme:hover, .btn#btn-savoir-gamme:focus {
+    padding: 10px 20px;
+    background-color: #00C853;
+    color: #ffffff;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn.btn-details {
+    padding: 10px 20px;
+    background-color:  rgba(240, 39, 28, 0.77);
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn.btn-details:hover, .btn.btn-details:focus {
+    padding: 10px 20px;
+    background-color:  rgba(240, 39, 28, 0.9);
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+#did-it-container{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+#did-it{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#para-did-it{
+    padding-top: 2%;
+    position: relative;
+    padding-bottom: 1%;
+    width: 45%;
+    color: white;
+    font-size: 130%;
+    left: 50%;
+}
+#timer-cube-container{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+#timer-cube{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#para-timer-cube{
+    position: relative;
+    margin-top: -1%;
+    padding-bottom: 1%;
+    width: 55%;
+    color: white;
+    font-size: 130%;
+    left: 45%;
+    color: #171c9a;
+}
+#para-timer-cube h2{
+    margin-left: 10%;
+}
+div#asso-mondiale{
+    margin-top: 20px;
+}
+div#asso-mondiale h2.text-titles{
+    padding-left: 25px;
+}
+@media(max-width:765px) {
+
+    #numtel{
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #pic{
+        width: 90px;
+        height: 95px;
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+    #num{
+        margin-top: 15px;
+        font-size: 1.2em;
+        margin-left: 2.6px;
+    }
+    #adr{
+        text-align: start;
+        font-size: 1em;
+        margin-top: 1px;
+    }
+    p span.glyphicon{
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .inline-form {
+        display: inline;
+        width: 100%;
+        background: #33691E;
+        color : #fff;
+    }
+    .carousel-inner .active.left {
+        left: -100%;
+    }
+    .carousel-inner .next {
+        left:  100%;
+    }
+    .carousel-inner .prev {
+        left: -100%;
+    }
+    .active > div {
+        display:none;
+    }
+    .active > div:first-child {
+        display:block;
+    }
+
+    img.cube-image-formation{
+        width: 60%;
+        height: 60%;
+        margin-top: -165px;
+        margin-left: -60px;
+    }
+
+    h2.text-primary{
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    #did-it{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #timer-cube{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #para-did-it{
+        bottom: -20px;
+        width: 170px;
+        color: white;
+        font-size: 0.6em;
+        left: 50%;
+    }
+
+    #para-timer-cube h2{
+        margin-left: 10%;
+        margin-top: 1.5%;
+        font-size: small;
+    }
+
+    #para-timer-cube{
+        width: 165px;
+        font-size: 0.7em;
+        left: 45%;
+    }
+
+    div#asso-mondiale{
+        margin-top: 40px;
+    }
+
+    ul.nav.navbar-nav li{
+        min-width: 50px;
+    }
+    .inline-form input {
+        display: inline-block;
+        width: 90%;
+
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin: auto;
+        width: 100%;
+        height: 400px;
+    }
+
+    #iframeGeo{
+        width: 100%;
+        height: auto;
+    }
+    .modal-dialog{
+        width: auto;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+
+    #mcms{
+        position: absolute;
+        z-index: 1;
+        margin-left: 1.9%;
+        margin-top: 2%;
+        width: 9%;
+        height: 15%;
+    }
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #00C853;
+}
+#contact-us{
+    padding-top: 2.5%;
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#numtel-adr{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+#numtel{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#bloc-1 ul,#bloc-2 ul{
+    list-style-type: none;
+    font-size: 1.2em;
+}
+ul li a,ul li a:hover,ul li a:focus,#numtel-adr{
+    color: white;
+    text-decoration: none;
+}
+#num{
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+#pic{
+    height: 99px;
+    width: 100px;
+    margin-top: 5px;
+}
+#adr{
+    text-align: left;
+    font-size: 1em;
+    margin-left: 115px;
+}
+p span.glyphicon{
+    color: white;
+    text-align: left;
+    padding-left: 45%;
+}
+@media(max-width:321px) {
+    #para-did-it{
+        bottom: -20px;
+        width: 150px;
+        color: white;
+        font-size: 0.49em;
+        left: 50%;
+    }
+    #para-timer-cube{
+        margin-top: -5%;
+        width: 165px;
+        font-size: 0.6em;
+        left: 45%;
+    }
+    div#para-timer-cube h2{
+        margin-top: 20px;
+    }
+    #mcms{
+        width: 5%;
+        height: 7%;
+    }
+}
+@media(max-width:1074px) and (min-width: 800px){
+
+    img#did-it{
+        margin-top: 10px;
+    }
+    #para-did-it{
+        bottom: -20px;
+        width: 420px;
+        color: white;
+        font-size: 0.85em;
+        left: 50%;
+    }
+    #para-timer-cube{
+        width: 450px;
+        font-size: 1em;
+        left: 45%;
+    }
+    div#para-timer-cube h2{
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+    #mcms{
+        position: absolute;
+        z-index: 999;
+        margin-left: 2%;
+        margin-top: 1%;
+        width: 5%;
+        height: 7%;
+    }
+}
+#mcms{
+    position: absolute;
+    z-index: 1;
+    margin-left: 1.9%;
+    margin-top: 1%;
+    width: 9%;
+    height: 15%;
+}
